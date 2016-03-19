@@ -1,5 +1,11 @@
-%h1 Edit Workout
-
-= render 'form'
-
-= link_to "Cancel", root_path
+.row
+	.col-md-8.col-md-offset-2
+		.panel.panel-default
+			.panel.heading
+				%h3 Edit Workout
+				.panel-body#edit
+					.row
+						.col-md-8
+							= render 'form'
+				.panel-footer
+					= link_to "Cancel", root_path, class: "btn btn-default"

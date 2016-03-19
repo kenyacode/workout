@@ -16,3 +16,67 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+html {
+	height: 100%;
+}
+body {
+	background: #2BC0E4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2BC0E4 , #EAECC6); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2BC0E4 , #EAECC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-header {
+	a {
+
+	}
+}
+.navbar-default {
+    background: rgba(250, 250, 250, 0.5);
+    -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+		border: none;
+		border-radius: 0;
+		.navbar-header {
+			.navbar-brand {
+				font-weight: 200;
+				color: beige;
+				font-size: x-large;
+				text-transform: uppercase;;
+			}
+			.navbar-link {
+				color: cadetblue;
+				font-size: 16px;
+			}
+		}
+}
+#index_workouts {
+	h2 {
+		margin-bottom: 0;
+		font-weight: 100;
+		font-size: 36px;
+		a {
+			color: white;
+		}
+	}
+}
+	h3 {
+    color: cadetblue;
+    margin: 10px;
+    font-size: 24px;
+		font-weight: 200;
+		span {
+			    color: beige;
+		}
+		a {
+			font-weight: 200;
+			color: teal;
+		}
+	}
+	#workout {
+		h3 {
+			color: beige;
+		}
+	}
+	.panel-body#edit {
+    padding: 25px;
+}

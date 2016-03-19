@@ -1,5 +1,11 @@
-%h1 New Workout
+.row
+	.col-md-8.col-md-offset-2
+		.form-group
+			.form-group
+				%h1 New Workout
+			.form-group
+				.row
+					.col-md-4
+						=render 'form'
 
-=render 'form'
-
-= link_to "Cancel", root_path
+				= link_to "Cancel", root_path

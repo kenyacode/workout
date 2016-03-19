@@ -1,3 +1,11 @@
-%p= exercise.name
-%p= exercise.sets
-%p= exercise.reps
+%table.table
+	%thead
+		%th Exercise
+		%th Sets
+		%th Reps
+	%tbody
+	- @workout.exercises.each do |exercise|
+		%tr
+			%td= exercise.name
+			%td= exercise.sets
+			%td= exercise.reps
