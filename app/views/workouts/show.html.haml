@@ -1,5 +1,5 @@
 #workout
-	%p= @workout.date
+	%p= @workout.date.strftime("%A, %B %m %l:%M %P %Y")
 	%p= @workout.workout
 	%p= @workout.mood
 	%p= @workout.length
